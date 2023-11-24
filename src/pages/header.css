@@ -1,0 +1,113 @@
+:root {
+  /* --border: 1px solid; */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  border: var(--border);
+  width: 1300px;
+  margin: 0 auto;
+}
+nav {
+  border: var(--border);
+  display: flex;
+  align-items: center;
+}
+.header_list-first {
+  width: 50%;
+  border: var(--border);
+  height: 80px;
+  display: flex;
+}
+.header_list-first .logo {
+  width: 30%;
+  border: var(--border);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header_list-second {
+  width: 20%;
+  border: var(--border);
+  height: 62px;
+  display: flex;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.header_list-second div {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  border: var(--border);
+  gap: 10px;
+  background: #ecfdf5;
+  color: rgb(0, 99, 3);
+}
+.header_list-second p {
+  width: 170px;
+}
+.header_list-third {
+  width: 28%;
+  border: var(--border);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_list-third div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+  border: var(--border);
+}
+.header_list-third button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 0px;
+  background-color: rgb(0, 99, 3);
+  color: white;
+}
+.header_list-first_list {
+  border: var(--border);
+  height: 100%;
+  width: 35%;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+.header_list-first_list .location_icon {
+  width: 40%;
+  height: 70%;
+  background: #ecfdf5;
+  color: rgb(0, 99, 3);
+  border-radius: 5px;
+}
+.header_list-second_list {
+  border: var(--border);
+  height: 100%;
+  width: 35.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header_list-second_list_items1 {
+  display: flex;
+  background: #ecfdf5;
+  color: rgb(0, 99, 3);
+  width: 40%;
+  padding: 10px 0px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.header_list-second_list .phone_icon {
+  width: 40%;
+  height: 40%;
+}

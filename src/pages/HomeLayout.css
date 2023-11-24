@@ -1,0 +1,81 @@
+:root {
+  /* --border: 1px solid; */
+}
+body {
+  border: var(--border);
+  position: relative;
+}
+.main_pizza-item {
+  display: flex;
+  border: var(--border);
+  justify-content: space-evenly;
+}
+.main_pizza-items {
+  border: var(--border);
+  width: 270px;
+  height: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 4px 13px 35px -16px rgba(34, 60, 80, 0.28);
+  -moz-box-shadow: 4px 13px 35px -16px rgba(34, 60, 80, 0.28);
+  box-shadow: 4px 13px 35px -16px rgba(34, 60, 80, 0.28);
+}
+.main_pizza-items p,
+h1 {
+  margin-left: 20px;
+}
+.main_pizza-items .pizza_item-price {
+  width: 125px;
+  border-radius: 15px;
+  background: whitesmoke;
+  border: 0px;
+  padding-left: 10px;
+  padding: 5px 0px 5px 10px;
+  font-weight: bolder;
+}
+footer {
+  border: var(--border);
+  margin-top: 80px;
+  padding: 50px 0px 50px 0px;
+  background: #262a2c;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-item1 {
+  color: white;
+  margin-top: 15px;
+}
+.payments div {
+  display: flex;
+}
+.payments div img {
+  display: flex;
+  margin: 0px 30px 15px 0px;
+}
+.footer-text {
+  color: white;
+  margin-bottom: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+.facebook {
+  color: white;
+}
+.insta {
+  color: white;
+}
+.telegram {
+  color: white;
+}
+.footer-items {
+  line-height: 35px;
+}
+.footer-items a {
+  color: rgb(186, 185, 185);
+}
+.footer-items a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

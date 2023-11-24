@@ -1,0 +1,201 @@
+@tailwind components;
+@tailwind utilities;
+
+.basket__items {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  border: var(--border);
+  position: relative;
+}
+.basket__item1 {
+  width: 65%;
+  display: flex;
+  border: var(--border);
+  margin-top: 15px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 15px -3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 15px -3px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 15px -3px #223c5033;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px 0px 0px;
+  overflow: hidden;
+}
+.form__section {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  border: var(--border);
+  width: 400px;
+}
+.form__section form input {
+  width: 170px;
+  height: 45px;
+  background: whitesmoke;
+  border: 0px;
+  border-radius: 7px;
+  padding: 0px 10px;
+  margin-left: 10px;
+}
+.form__section form input::placeholder {
+  color: gray;
+  font-size: 17px;
+}
+.form__section form button {
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 17px;
+  border: 0px;
+  color: white;
+  background: #000;
+  margin-left: 10px;
+}
+.form__section-items {
+  border: var(--border);
+  padding: 15px 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 15px -3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 15px -3px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 15px -3px rgba(34, 60, 80, 0.2);
+}
+.form__section-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.form__section-items-btn {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  border-radius: 25px;
+  color: white;
+  background: green;
+}
+.basket__item1-info {
+  display: flex;
+  align-items: center;
+}
+.basket__item1-count {
+  border: var(--border);
+  text-align: center;
+}
+.basket__item1-count div {
+  display: flex;
+  border: var(--border);
+  width: 100px;
+  text-align: center;
+}
+.basket__item1-count div button {
+  width: 100%;
+  text-align: center;
+  border: 0px;
+}
+.basket__item1-inc {
+  border-radius: 5px 0px 0px 5px;
+  height: 25px;
+}
+.basket__item1-dec {
+  border-radius: 0px 5px 5px 0px;
+}
+.basket__item1-count_p {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+.basket__item1-price {
+  width: 100px;
+  border: var(--border);
+  margin-top: 5px;
+}
+.form_register {
+  border: var(--border);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_register div {
+  /* border: var(--border); */
+  text-align: center;
+}
+.form_register input {
+  text-align: center;
+  width: 400px;
+  margin-top: 10px;
+  height: 50px;
+  border: 0px;
+  background: whitesmoke;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.form_register .reg-btn {
+  width: 300px;
+  margin-top: 20px;
+  height: 45px;
+  border-radius: 30px;
+  border: 0px;
+  background: #000;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.form_register p {
+  font-size: 12px;
+  margin-top: 15px;
+}
+.form_register p span {
+  color: blueviolet;
+}
+.form_register input::placeholder {
+  font-size: 30px;
+}
+.disabled_btn-reg {
+  cursor: no-drop;
+  width: 300px;
+  margin-top: 20px;
+  height: 45px;
+  border-radius: 30px;
+  border: 0px;
+  background: rgb(219, 219, 219);
+  color: white;
+  font-size: 20px;
+}
+.Halal-cert {
+  width: 1300px;
+  text-align: center;
+}
+.Halal-cert h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.accaunt-ul {
+  background: white;
+  margin-top: 40px;
+  margin-left: -100px;
+}
+.user_icon {
+  color: green;
+}
+.account-father {
+  width: 80px !important;
+  height: 10px;
+}
+.account-btn {
+  width: 120px !important;
+  height: -10px !important;
+  background: whitesmoke;
+  border-radius: 25px;
+}
+.account-btn:hover {
+  width: 120px !important;
+  height: -10px !important;
+  background: whitesmoke;
+  border-radius: 25px;
+}
+.exit_text:hover {
+  color: green;
+}
